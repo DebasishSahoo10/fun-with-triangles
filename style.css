@@ -87,14 +87,6 @@ p {
     margin: 1rem auto;
 }
 
-#copyright-text {
-    position: absolute;
-    width: 100%;
-    margin: auto;
-    bottom: 1rem;
-    text-align: center;
-}
-
 @media only screen and (max-width: 900px) {
     .angle-input, #b-length, #a-length, #base-length, #height-length {
         width: 90%;
