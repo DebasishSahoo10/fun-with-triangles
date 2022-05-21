@@ -86,3 +86,34 @@ p {
     width: 90%;
     margin: 1rem auto;
 }
+
+#copyright-text {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    bottom: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .angle-input, #b-length, #a-length, #base-length, #height-length {
+        width: 90%;
+    }
+
+    label {
+        width: 90%;
+    }
+
+    .nav-items {
+        padding: 0.5rem;
+    }
+
+    .nav-area {
+        text-align: center;
+    }
+
+    #output-area {
+        width: 90%;
+        margin: auto;
+    }
+  }
