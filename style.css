@@ -3,7 +3,7 @@
 
 
 :root {
-    --primary-color: #139B4A;
+    --primary-color: #329c5d;
     --secondary-color: rgb(255, 255, 255);
     --third-color: rgb(47, 44, 44);
 }
@@ -109,6 +109,9 @@ p {
     }
 
     .nav-area {
+        padding: 0.3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
         text-align: center;
     }
 
